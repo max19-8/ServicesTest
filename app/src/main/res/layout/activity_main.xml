@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/service_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/foreground_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/foreground_service_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/intent_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_service_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/job_dispatcher_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_dispatcher_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/job_intent_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_intent_service_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/alarm_manager_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm_manager_text"
+        style="@style/PurpleButton"/>
+    <Button
+        android:id="@+id/work_manager_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/work_manager_text"
+        style="@style/PurpleButton"/>
+
+
+</LinearLayout>
