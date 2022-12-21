@@ -36,6 +36,7 @@ class MyForegroundService : Service() {
                 delay(1000)
                 log("Timer $count")
             }
+            stopSelf()
         }
         return START_STICKY
 
