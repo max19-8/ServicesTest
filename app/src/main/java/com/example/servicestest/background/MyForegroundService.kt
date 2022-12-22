@@ -50,8 +50,10 @@ class MyForegroundService : Service() {
     }
 
 
+
+
     private fun log(message:String){
-        Log.d(TAG,message)
+        Log.d(TAG,"MyForegroundService: $message")
     }
 
     private fun createNotificationChannel() {

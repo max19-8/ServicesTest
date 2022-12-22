@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
 
     <application
@@ -15,7 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ServicesTest"
         tools:targetApi="31">
-
 
         <activity
             android:name=".MainActivity"
@@ -38,7 +38,25 @@
         <service
             android:name=".background.MyForegroundService"
             android:enabled="true"
-            android:exported="false"/>
+            android:exported="false" />
+        <service
+            android:name=".background.MyIntentService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".background.MyIntentService2"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".background.MyJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".background.MyJobIntentService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>
