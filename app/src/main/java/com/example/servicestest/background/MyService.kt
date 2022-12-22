@@ -6,7 +6,7 @@ import android.os.IBinder
 import android.util.Log
 import kotlinx.coroutines.*
 
-private  const val SERVICE_TAG = "service_tag"
+private  const val TAG = "service_tag"
 
 class MyService : Service() {
     override fun onBind(p0: Intent?): IBinder? {
@@ -42,7 +42,7 @@ class MyService : Service() {
 
 
     private fun log(message:String){
-        Log.d(SERVICE_TAG,message)
+        Log.d(TAG,"MyService: $message")
     }
 
     companion object{
