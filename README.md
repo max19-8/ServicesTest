@@ -1,6 +1,4 @@
 # ServicesTest
 Закреплялка по сервисам
 
-
-![photo](https://user-images.githubusercontent.com/70865564/211224617-6f08a86e-3c63-4e4b-9388-9f7518b0b9a4.jpg)
-
+![photo](https://user-images.githubusercontent.com/70865564/211224806-d791f308-4d93-48a4-afa7-fb628356d745.jpg)
